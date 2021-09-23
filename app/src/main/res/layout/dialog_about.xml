@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/backgroundmoregame" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:elevation="20dp"
+        android:src="@android:drawable/btn_dialog"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/textViewabout"
+        android:layout_width="332dp"
+        android:layout_height="369dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="47dp"
+        android:fontFamily="monospace"
+        android:text="- Người chơi có 60s để chơi ở mỗi lượt
+        \n\n - Người chơi tiêu diệt chuột bằng cách click vào chuột để kiếm điểm
+        \n\n - Tốc độ chuột chạy sẽ tăng dần theo thời gian
+        \n\n - Nếu để một con chuột chạy mất, trò chơi kết thúc"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
